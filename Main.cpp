@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+string namePlayer;
+
 void welcomeGreet()
 {
 	cout << "###########################################################################################################" << endl;
@@ -27,6 +29,17 @@ void playMenu()
 {
 
 }
+
+void startGame()
+{
+	cout << "Welcome to the game! What is your first name?" << endl;
+
+	cin >> namePlayer;
+
+
+}
+
+
 void howToPlayMenu()
 {
 	system("CLS");
