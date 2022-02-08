@@ -17,17 +17,37 @@ void welcomeGreet()
 
 void mainMenu()
 {
-	cout << "1. Play" << endl;
-	cout << "2. How To Play" << endl;
-	cout << "3. About Our Team" << endl;
-	cout << "4. Quit" << endl;
+	cout << "                                             1. Play" << endl;
+	cout << "                                             2. How To Play" << endl;
+	cout << "                                             3. About Our Team" << endl;
+	cout << "                                             4. Quit" << endl;
 }
 
 void playMenu()
 {
 
 }
+void howToPlayMenu()
+{
 
+}
+
+void aboutUsMenu()
+{
+	system("CLS");
+	cout << "Scrum Trainer:         Frontend developer:         Backend developer:            Q&A:                       Helper" << endl;
+	cout << "Georgi Malchev          Teodor Osmanliev            Teodor Todorov        Kaloqn Pazlamachev            Andrey Andreev" << endl;
+	system("pause");
+	system("CLS");
+	welcomeGreet();
+	mainMenu();
+
+}
+
+void quitMenu()
+{
+	system("pause");
+}
 
 int main()
 {
@@ -51,7 +71,7 @@ int main()
 	}
 	else if (choiceMenu == 3)
 	{
-
+		aboutUsMenu();
 	}
 	else if (choiceMenu == 4)
 	{
