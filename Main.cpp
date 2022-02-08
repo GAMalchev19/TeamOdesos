@@ -29,7 +29,12 @@ void playMenu()
 }
 void howToPlayMenu()
 {
-
+	system("CLS");
+	cout << "Our game is like Who Wants to Be a Millionaire, but our questions are only historical. If you choose only the correct answers you will win our game. Let's try it!" << endl << endl;
+	system("pause");
+	system("CLS");
+	welcomeGreet();
+	mainMenu();
 }
 
 void aboutUsMenu()
@@ -46,7 +51,7 @@ void aboutUsMenu()
 
 void quitMenu()
 {
-	system("pause");
+	system("CLS");
 }
 
 int main()
@@ -67,7 +72,7 @@ int main()
 	}
 	else if (choiceMenu == 2)
 	{
-
+		howToPlayMenu();
 	}
 	else if (choiceMenu == 3)
 	{
@@ -75,7 +80,7 @@ int main()
 	}
 	else if (choiceMenu == 4)
 	{
-
+		quitMenu();
 	}
 	else
 	{
