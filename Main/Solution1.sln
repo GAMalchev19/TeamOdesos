@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{51D44C88-39AE-451C-9087-0E21DA00738A}"
+	ProjectSection(SolutionItems) = preProject
+		Main.cpp = Main.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Header files", "Header files", "{A5AD0892-94E8-4265-996A-E608E1B6AAF5}"
+	ProjectSection(SolutionItems) = preProject
+		questionHeader.h = questionHeader.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D910825D-BA19-48CE-9028-E5C45F609C1D}
+	EndGlobalSection
+EndGlobal
