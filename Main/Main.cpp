@@ -2,8 +2,11 @@
 #include "questionHeader.h"
 using namespace std;
 
+// The name of the current player
 string namePlayer;
 
+
+// This is the welcome greeting in the beggining of the program
 void welcomeGreet()
 {
 	cout << "###########################################################################################################" << endl;
@@ -17,7 +20,7 @@ void welcomeGreet()
 	cout << "###########################################################################################################" << endl;
 }
 
-
+// This is the main menu
 void mainMenu()
 {
 	cout << "                                             1. Play" << endl;
@@ -26,11 +29,13 @@ void mainMenu()
 	cout << "                                             4. Quit" << endl;
 }
 
+// This is the function that will start the game
 void playMenu()
 {
 
 }
 
+// This is the function after starting the game to input the name of the player
 void startGame()
 {
 	cout << "Welcome to the game! What is your first name?" << endl;
@@ -40,7 +45,7 @@ void startGame()
 
 }
 
-
+// This the how to play menu that will inform the player to understand the game
 void howToPlayMenu()
 {
 	system("CLS");
@@ -51,6 +56,7 @@ void howToPlayMenu()
 	mainMenu();
 }
 
+// This the function of the menu which will display information for our team
 void aboutUsMenu()
 {
 	system("CLS");
@@ -63,6 +69,7 @@ void aboutUsMenu()
 
 }
 
+// This is the function for ending the program
 void quitMenu()
 {
 	system("CLS");
@@ -76,6 +83,7 @@ int main()
 
 	mainMenu();
 
+	// This is the player's choice of menu
 	int choiceMenu;
 
 	cin >> choiceMenu;
@@ -96,6 +104,7 @@ int main()
 	{
 		quitMenu();
 	}
+	// This else is for incorrect choice of menu
 	else
 	{
 		system("CLS");
