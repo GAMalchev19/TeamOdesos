@@ -3,12 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{51D44C88-39AE-451C-9087-0E21DA00738A}"
-	ProjectSection(SolutionItems) = preProject
-		Main.cpp = Main.cpp
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Header files", "Header files", "{A5AD0892-94E8-4265-996A-E608E1B6AAF5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E67D537D-DEBD-474A-8F7C-7FA77C0A6B1E}"
 	ProjectSection(SolutionItems) = preProject
 		questionHeader.h = questionHeader.h
 	EndProjectSection
@@ -18,6 +13,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D910825D-BA19-48CE-9028-E5C45F609C1D}
+		SolutionGuid = {8DA34B57-540B-4D6D-92AA-D86605793D9C}
 	EndGlobalSection
 EndGlobal
