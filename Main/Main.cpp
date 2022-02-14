@@ -1,8 +1,12 @@
 #include <iostream>
+#include "questionData.h"
 using namespace std;
 
 // This is the player's choice of menu
 int choiceMenu;
+int score = 0;
+
+
 
 
 // This is the welcome greeting in the beginning of the program
@@ -28,17 +32,63 @@ void mainMenu()
     cout << "                                             4. Quit" << endl;
 }
 
+// This is the function after starting the game
+void startGame(int questionSelect)
+{
+
+
+    cout << questionData[questionSelect] << endl;
+
+    cout << "1." << answerData[questionSelect][0] << endl;
+    cout << "2." << answerData[questionSelect][1] << endl;
+    cout << "3." << answerData[questionSelect][2] << endl;
+    cout << "4." << answerData[questionSelect][3] << endl;
+
+    cout << "Your answer:";
+
+    int playerAnswer;
+
+    cin >> playerAnswer;
+
+    if (playerAnswer - 1 == indexOfRightA[questionSelect])
+    {
+        score++;
+    }
+    system("cls");
+    cout << "Press enter for next question." << endl;
+    system("pause");
+    system("CLS");
+}
+
 // This is the function that will start the game
 void playMenu()
 {
+    cout << "What is your first name?" << endl;
 
+    string playerName;
+    cin >> playerName;
+
+    cout << "Welcome to the game " << playerName << "!";
+
+    system("pause");
+    system("CLS");
+
+    bool questionUsed[15] = { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 };
+
+    for (int i = 0; i < 15; i++)
+    {
+        int questionSelect = rand() % 15;
+        if (questionUsed[questionSelect] == true) {
+            while (questionUsed[questionSelect] != true) {
+                questionSelect = rand() % 15;
+            }
+        }
+        startGame(questionSelect);
+    }
+
+    cout << "Your score is " << score << "/15! Well played!" << endl;
 }
 
-// This is the function after starting the game to input the name of the player
-void startGame()
-{
-
-}
 
 // This the how to play menu that will inform the player to understand the game
 void howToPlayMenu()
