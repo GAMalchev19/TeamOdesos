@@ -1,15 +1,14 @@
 # 📖 Project Theme
-To create an application for registration and management of historical events, implemented through linked C ++ lists.
+Text goes here.
 <br>
 <br>
 
 # 🙋‍♂️ Participants
 
-George Malchev - Scrum Trainer <br>
-Teodor Osmanliev - FrontEnd <br>
-Teodor Todorov - BackEnd <br>
+Nikolay Brankov - Scrum Trainer <br>
+George Hrisimov - FrontEnd <br>
+Yoan Gavrilov - BackEnd <br>
 Kaloyan Pazlamachev - Quality Assurance <br>
-Andrey Andreev - Quality Assurance <br>
 <br>
 <br>
 
